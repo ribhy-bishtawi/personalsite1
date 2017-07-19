@@ -1,0 +1,13 @@
+ git config --global user.name "ribhy bishtawi"
+git init
+git add-A
+git init
+la -la
+git add-A
+
+git status
+ git add -A .
+ git status^C
+git commit -m "initial commit "
+git remote add origin https://github.com/ribhy-bishtawi/personalsite1.git
+git push -u origin master
