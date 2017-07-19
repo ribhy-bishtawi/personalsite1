@@ -1,0 +1,373 @@
+
+
+.header{
+	background-image:url(../static/home.jpg);
+	height:92vh;
+	background-size:cover;
+	margin-bottom: 0px;
+  
+}
+.main-header{
+  
+  padding-left: 10%;
+  padding-right: 0;
+  padding-top: 10%;
+  margin-right: auto;
+  display: relative;
+  width: 60%;
+  height: 70vh ;
+
+}
+
+
+.sec2-text{
+  padding-left: 5%;
+  float: left;
+  width: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+.sec-pic{
+  
+  background-image:url(../static/cabout.jpg);
+  background-position:center center ; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100vh;
+
+  width: 40%;
+  margin-left: 0;
+  float: right;
+
+}
+#about{
+padding: 40px;
+  background-color: #FFF3E1;
+  height: 100vh;
+}
+
+p{
+  color:black;
+	max-width:600px;
+}
+nav{
+  width: 100%;
+  background: #D24D57;
+  color: #fff;
+ text-align: center;
+}
+.fixed-nav{
+  background-color: rgba(210,77,87,.7);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+  }
+
+
+ul li {
+
+  display: inline-block;
+  padding: 20px;
+}
+nav li:hover {
+  background-color:rgba(224,130,131,.3) ;
+}
+.fixed-nav ul li:hover{
+  background-color:rgba(224,130,131,.3) ;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a{
+  color:white;
+  text-decoration:none; 
+}
+div.img {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+#hl{
+    border: 10px solid #777;
+}
+#Music{
+  padding:7px;
+  background-color:#f3e1ff; 
+  height: 130vh;
+}
+.vidforimg{
+  margin-bottom:50px;
+  height: 100%;
+}
+.musich{
+text-align: center;
+font-size: 70px;
+ border-bottom: 1px solid #4c4c4c;
+ color: #4c4c4c;
+ margin-bottom: 0px;
+}
+#contact{
+  background-color: #FFF3E1;
+
+ border: 1px solid #4c4c4c;
+  padding-top: 120px;
+  height: 100vh;
+ 
+}
+div.cont-image{
+  display:inline-block;
+
+ background-image:url(../static/contact.png);
+  background-position:left ; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 85vh;
+
+  width: 40%;
+  margin-left: 0;
+  float: left;
+}
+.face{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/FC.png);
+  background-position:center ; 
+
+}
+
+.insta{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/insta.png);
+  background-position:center ; 
+
+}
+.insta1{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/insta.jpg);
+  background-position:center ; 
+}
+.face1{
+height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/face.jpg);
+  background-position:center ; 
+}
+.whatsapp1{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/wapp.jpg);
+  background-position:center ; 
+}
+.skype1{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/skype.jpg);
+  background-position:center ; 
+}
+.g1{
+    height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/email.jpg);
+  background-position:center ; 
+}
+.G{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/G.png);
+  background-position:center ; 
+
+}
+.skype{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/skype.png);
+  background-position:center ; 
+}
+
+.whatsapp{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/whatsapp.png);
+  background-position:center ; 
+}
+.snapchat{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/snapchat.png);
+  background-position:center ; 
+}
+.snapchat-qr{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/snapcode2.jpg);
+  background-position:center ; 
+}
+.skype{
+  height: 20vh;
+  background-repeat: no-repeat; 
+  background-image:url(../static/skype.png);
+  background-position:center ; 
+}
+
+.info{
+   border: 1px solid #4c4c4c;
+  display: inline-block;
+  width: 50%;
+}
+.row{
+  margin-top:25px;
+  padding: 30px;
+  width: 50%;
+  min-height: 1px;
+  float: right;
+  margin-bottom: 100px;
+}
+.col{
+
+  min-height: 40px;
+  border-radius: 8px;
+  margin-left: 2.4%;
+margin-right: 2.4%;
+display: inline-block;
+float: right;
+}
+.col:first-child{
+margin-left: 0px;
+}
+.col:last-child{
+  margin-right: 0px;
+}
+.col.four{
+  width: 30%;
+   float: right;
+
+}
+.sec-row{
+  margin-top:500px;
+  width: 50%;
+  float: right;
+
+}
+
+@media (){
+  .col{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+  }
+}
+.sitelinks{
+  color: #EEE;
+  margin-left: 200px;
+  float: left;
+  padding-top: 70px;
+  
+}
+
+.footer1{
+  text-align: center; 
+  height: 300px;
+  background-color:#555;
+}
+.sub{
+  color: #EEE;
+  margin-left: 170px;
+  float: left;
+  padding-top: 70px;
+  
+}
+div.tabel{
+  padding-top: 100px;
+  margin-left: 450px;
+  width: 20%;
+  min-height: 30px;
+  height: 30%;
+}
+table{
+  border:30px solid red;
+}
+.feedbu{
+  padding-top: 25px;
+}
+.febutton{
+  margin-left:200px;
+  float: left;
+  border-radius:20px;
+}
+.febutton:hover{
+  background-color: #BBBBBB;
+}
+.copy{
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+}
+.cont{
+   color: #EEE;
+  margin-left: 200px;
+  float: right;
+border: 1px solid red;
+}
+.cont1{
+  color:#EEE;
+  margin-left: 370px;
+  float: right;
+border: 1px solid red;
+
+}
+.Read{
+  color:red;
+}
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+border: 1px soild silver;
+}
+.mail h2 {
+margin-left: 38px;
+
+}
+input {
+font-size: 20pt;
+text-align:right;
+
+}
+
+input submit {
+font-size: 12pt;
+}
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
+.mail{
+  float:left;
+}

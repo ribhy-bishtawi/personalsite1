@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> {{title}} </title>
+<link rel="stylesheet" type="text/css" href="{{  url_for ('static', filename='main.css')}}">
+</head>
+<body onload='document.formValidation.X.focus()' >
+ 	<nav>
+      <div>
+        <div class="nav">
+      </div>
+      <ul class="ul-align">
+        <li ><a href="#home">Home</a></li>
+        <li><a href ="#about">About</a></li>
+        <li><a href ="#Music">Music</a></li>
+        <li><a href ="#contact">Contact</a></li>
+      </ul>
+  </nav></div>
+    {%block body%}
+
+	<div class="header" id = "home">
+	<header>
+		<div class="main-header">
+		<h2 style="color: rgb(255, 255, 255); font-size: 72px; line-height: 86px;">WELCOME ALL<br>Nice To Meet You</h2>
+		<h4 class="ribhy"style="float:left;color: rgb(255, 255, 255); font-size: 18px; line-height: 19px;"> {{name}} IS HERE TO SURPRISE ALL OF YOU :)</h4>
+	</div>
+	</header>
+</div>
+
+  <section id ="about">
+  <div class = "sec-pic"> </div>
+  <div class = "sec2-text">
+  	<h1>About me</h1>
+<!--{% if fact %}-->
+	<!--<h6>	{{fact}} </h6>-->
+<!--{% endif %}-->
+  <h1> my hoppies </h1>
+
+  <ol>
+    <li> playing football</li>
+    <li> swimming </li>
+    <li>playing table tennis </li>
+    <li> useing illustrator</li>
+		</ol>
+	{# comment #}
+		</section>
+	<section id ="Music">
+  <h1 class="musich"> Music</h1>  
+
+		<div class="img dl" >
+  <a target="_blank" on>
+    <img src="../static/dl.jpeg"/>
+  </a>
+  <div class="desc">Dont Let Me Down</div>
+</div>
+
+	<div class="img hl">
+  <a target="_blank">
+    <img src="../static/hl.jpg"/>
+  </a>
+ <div class="desc">Hello</div>
+</div>
+
+	<div class="img dn">
+  <a target="_blank" >
+    <img src="../static/dm.jpg"/>
+  </a>
+  <div class="desc">Dont You Need SM</div>
+</div>
+
+	<div class="img yo">
+  <a target="_blank">
+    <img src="../static/yo.png"/>
+  </a>
+  <div class="desc">When i was 7</div>
+</div>
+
+	<div class="img lm">
+  <a target="_blank">
+    <img src="../static/Lo.jpg"/>
+  </a>
+  <div class="desc">Love Me like you do</div>
+</div>
+
+	<div class="img ly">
+  <a target="_blank">
+    <img src="../static/LY.jpg"/>
+  </a>
+  <div class="desc">Love-Yourself Js </div>
+</div>
+
+	<div class="img at">
+  <a target="_blank">
+    <img src="../static/AT.jpg"/>
+  </a>
+  <div class="desc"> Aint My Fault</div>
+</div>
+<div class="vidforimg">
+	<iframe  width="100%" height="50%" src="https://www.youtube.com/embed/bMD9VsIn218" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class = "copy">
+</div>
+	</section>
+
+
+  <section id ="contact">
+
+   
+      <div  class="cont-image"></div>
+        <div class="row" >
+          <div class="col four face f" ></div>
+          <div class="col four  insta i"></div> 
+          <div class="col four snapchat s"></div>
+      </div>
+      <div class ="sec row scol">
+         <div class="col four G"></div>
+         <div class="col four skype sk"></div>
+         <div class="col four whatsapp w"></div>
+
+      </div>
+ 
+
+ 
+
+
+  </section>
+<section class="footer1">
+<div class ="footer">
+<footer>
+  <div class="raw">
+  <div class ="sitelinks col four">
+    <h3>Site Links:-</h3>
+    <a href="#home"><h4> home</h4></a>
+    <a href="#about"><h4>  about</h4></a>
+    <a href ="#Music"><h4>music</h4></a>
+    <a href="#contact"><h4> contact</h4></a>
+  </div>
+ <!--  <div class="col four">
+  <div class ="sub"> <h3 style=""> Give a Feed</h3>  </div>
+    
+      <input style="float:right; margin-bottom:20px;margin-right:15px;" class="text" type = "text" placeholder="Your Feed" style =" text-align:center;">
+     <div class ="feedbu"> <button class="febutton" type="submit">Feed Now</button></div>
+
+  </div>
+</div> -->
+<div class="mail">
+<h2>Write here</h2>
+<form name="formValidation" action="#">
+<ul>
+<li><input type='text' name='X'/></li>
+<li class="rq">*only letters allowed without (*/1....)</li>
+<li>&nbsp;</li>
+<li><input type="submit" name="submit" value="Submit" onclick="Function(document.formValidation.X)" /></li>
+<li>&nbsp;</li>
+</ul>
+</form>
+</div>
+<script src="../static/Javascript.js"></script>
+  <div class="col four"style ="  color: #EEE; margin-top:85px;" >
+    <h3> Contact Me </h3></body>
+
+    <h4 > rafedia-street, taiba bulding-4th floor</h4>
+  </div>
+</div>
+</footer>
+
+
+</section>
+</body>
+{%endblock%}
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="/static/main.js"></script>
+
+</html>

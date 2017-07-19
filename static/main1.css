@@ -1,0 +1,123 @@
+body{
+	color: white;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 14px;
+    line-height: 18px;
+background-color: #0b3c4c;
+}
+	
+#content {
+	color: #e5e5e5;
+font-weight: bold;
+margin-left: 20px;
+overflow: hidden;
+height: 3.6em;
+line-height: 1.2em;
+width: 200px;
+}
+
+.project1{
+	width: 250px;
+	height: 200px;
+}
+
+.read-more-state {
+  display: none;
+}
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.first{
+	width: 250px;
+	border: 5px solid lightblue;
+	margin-top: 25px;
+}
+
+.blue{
+  color: lightblue;
+}
+.orange{
+	color: orange;
+}
+.yellow{
+	color:yellow;
+}
+.pink{
+	color: pink;
+}
+.green{
+	color: green;
+}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em
+;}
+.link1{
+color: white;
+text-decoration: none;
+font-size: 30px;
+margin-left: 30%;
+
+
+}
+.first1{
+float: left;
+margin-top: 50px;
+width: 250px;
+}
+.seconde1{
+margin-top: 50px;
+padding-left: 20px;
+float: left;
+width: auto;
+
+}
+.third1{
+padding-left: 10px;
+margin-top: 50px;
+float: left;
+height: auto;
+}
+
+.all{
+}
