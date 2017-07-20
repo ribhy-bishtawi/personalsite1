@@ -7,9 +7,8 @@ def index(name ,fact):
 @app.route("/myname/<name>")
 def indexx(name):
 	return render_template("index.html", title="Ribhy", name=name)
-@app.route("/code.html")
+@app.route("/myname/code.html")
 def code():
-
 	return 	render_template("code.html")
 @app.route('/example')
 def example():
