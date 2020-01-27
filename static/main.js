@@ -30,7 +30,7 @@ $( "div.ly" ).click(function() {
   $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/TMSIR210mRg\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.at" ).click(function() {
-  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/bqibUJ-0qBk" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
+  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/bqibUJ-0qBk\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 
 $( "div.s" ).click(function() {
