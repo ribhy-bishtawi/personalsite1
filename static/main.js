@@ -67,13 +67,13 @@ function Function(inputtxt)
 var letters = /^[0 - 9 a - z A - Z]+$/;
 if(inputtxt.value.match(letters))
 {
-alert('Thank you for your feed, try again');
-X.focus();
-return true;
+    alert('Thank you for your feed, try again');
+    X.focus();
+    return true;
 }
 else
 {
-alert('please enter a vaild feed. ');
-return false;
+    alert('please enter a vaild feed. ');
+    return false;
 }
 }
