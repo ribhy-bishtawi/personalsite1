@@ -18,19 +18,19 @@ $( "div.hl" ).click(function() {
   $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/9h0Arg_-380\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.dn" ).click(function() {
-  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/a6Rrngddg-Y\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
+  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/9UYcblEXBTU\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.yo" ).click(function() {
   $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/cT3S78DLCk0\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.lm" ).click(function() {
-  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/AJtDXIazrMo\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
+  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/GD2_bkNgX5I\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.ly" ).click(function() {
   $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/TMSIR210mRg\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.at" ).click(function() {
-  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/hzn67zTCgGc\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
+  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/bqibUJ-0qBk" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 
 $( "div.s" ).click(function() {
@@ -67,13 +67,13 @@ function Function(inputtxt)
 var letters = /^[0 - 9 a - z A - Z]+$/;
 if(inputtxt.value.match(letters))
 {
-    alert('Thank you for your feed, try again');
-    X.focus();
-    return true;
+alert('Thank you for your feed, try again');
+X.focus();
+return true;
 }
 else
 {
-    alert('please enter a vaild feed. ');
-    return false;
+alert('please enter a vaild feed. ');
+return false;
 }
 }
