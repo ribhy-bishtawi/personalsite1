@@ -24,7 +24,7 @@ $( "div.yo" ).click(function() {
   $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/cT3S78DLCk0\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.lm" ).click(function() {
-  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/AJtDXIazrMo"\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
+  $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/TMSIR210mRg\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
 });
 $( "div.ly" ).click(function() {
   $( "div.vidforimg" ).replaceWith( "<div class=\"vidforimg\">" + "<iframe  width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/TMSIR210mRg\" frameborder=\"0\" allowfullscreen></iframe>"+"</div>" );
