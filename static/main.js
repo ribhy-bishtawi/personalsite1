@@ -64,7 +64,7 @@ $( "div.s" ).click(function() {
  
 function Function(inputtxt)
 { 
-var letters = /^[0 - 9 a - z A - Z]+$/;
+var letters = /^[0-9 a-z A-Z]+$/;
 if(inputtxt.value.match(letters))
 {
 alert('Thank you for your feed, try again');
